@@ -10,7 +10,7 @@
 
 body {
     color: rgb(0, 0, 0);
-    background-color: #d3d3d3;
+    background-color: rgb(220,220,220);
 }
 
 h1 {
@@ -124,6 +124,26 @@ header {
 
 .label-m {
     background-color: orangered;
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    font-size: 10px;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.label-w {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    font-size: 10px;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.label-s {
+    background-color: rgb(14, 133, 14);
     width: 100px;
     height: 100px;
     border-radius: 120px;
