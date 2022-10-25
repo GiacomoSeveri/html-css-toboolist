@@ -95,3 +95,7 @@ header {
     vertical-align: middle;
     padding: 3px;
 }
+
+.task-name {
+    font-size: 20px;
+}
