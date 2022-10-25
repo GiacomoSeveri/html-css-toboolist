@@ -40,6 +40,10 @@ button {
     border-radius: 10px;
 }
 
+p {
+    margin-bottom: 2px;
+}
+
 /* Header */
 
 #logo {
@@ -57,9 +61,11 @@ header {
 .all-button {
     text-align: left;
     background-color: white;
-    margin-top: 15px;
+    margin-top: 20px;
     padding-left: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .task-button {
@@ -69,27 +75,38 @@ header {
 }
 
 .section-button {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 222, 222);
     color: darkgrey;
 }
 
 .all-task {
     background-color: white;
     padding-left: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 15px;
 }
 
 .check {
     color: lightgreen;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid lightgreen;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
 }
 
 .cross {
     color: red;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid red;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
 }
 
 .label-e {
