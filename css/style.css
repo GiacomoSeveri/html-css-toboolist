@@ -10,7 +10,7 @@
 
 body {
     color: rgb(0, 0, 0);
-    padding-top: 10px;
+    background-color: #d3d3d3;
 }
 
 h1 {
@@ -18,6 +18,14 @@ h1 {
     vertical-align: middle;
     font-size: 40px;
     font-family: sans-serif;
+}
+
+button {
+    margin-top: 30px;
+    width: 100px;
+    padding: 6px;
+    height: 30px;
+    border-radius: 10px;
 }
 
 /* Header */
@@ -32,3 +40,21 @@ header {
     background-color: white;
 }
 
+/* main */
+
+.all-button {
+    text-align: center;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -400px;
+}
+
+.task-button {
+    background-color: rgb(73, 157, 196);
+    color: white;
+}
+
+.section-button {
+    background-color: rgb(255, 255, 255);
+    color: darkgrey;
+}
