@@ -20,6 +20,18 @@ h1 {
     font-family: sans-serif;
 }
 
+h2 {
+    padding-top: 30px;
+}
+
+main {
+    margin-left: 360px;
+
+    border-radius: 240px;
+    width: 800px;
+    height: 100px;
+}
+
 button {
     margin-top: 30px;
     width: 100px;
@@ -43,18 +55,43 @@ header {
 /* main */
 
 .all-button {
-    text-align: center;
+    text-align: left;
     background-color: white;
     margin-top: 15px;
-    margin-left: -400px;
+    padding-left: 15px;
+   
 }
 
 .task-button {
     background-color: rgb(73, 157, 196);
     color: white;
+    margin: 20px auto;
 }
 
 .section-button {
     background-color: rgb(255, 255, 255);
     color: darkgrey;
+}
+
+.all-task {
+    margin-top: 5px;
+    background-color: white;
+    padding-left: 15px;
+}
+
+.check {
+    color: lightgreen;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.label-e {
+    background-color: rgb(73, 157, 196);
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    font-size: 10px;
+    vertical-align: middle;
+    padding: 3px;
 }
