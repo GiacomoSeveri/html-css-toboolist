@@ -11,6 +11,7 @@
 body {
     color: rgb(0, 0, 0);
     background-color: rgb(220,220,220);
+    font-family: arial;
 }
 
 h1 {
@@ -18,10 +19,12 @@ h1 {
     vertical-align: middle;
     font-size: 40px;
     font-family: sans-serif;
+    font-weight: 900;
 }
 
 h2 {
     padding-top: 30px;
+    margin-bottom: 20px;
 }
 
 main {
@@ -37,11 +40,11 @@ button {
     width: 100px;
     padding: 6px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 p {
-    margin-bottom: 2px;
+    margin-bottom: 10px;
 }
 
 /* Header */
@@ -72,10 +75,11 @@ header {
     background-color: rgb(73, 157, 196);
     color: white;
     margin: 20px auto;
+    border: transparent;
 }
 
 .section-button {
-    background-color: rgb(223, 222, 222);
+    background-color: white;
     color: darkgrey;
 }
 
@@ -116,57 +120,63 @@ header {
     border-radius: 120px;
     font-size: 10px;
     vertical-align: middle;
-    padding: 3px;
+    color: white;
+    padding: 5px;
 }
 
 .label-q {
-    background-color: violet;
+    background-color: #8f00ff;
     width: 100px;
     height: 100px;
     border-radius: 120px;
     font-size: 10px;
     vertical-align: middle;
-    padding: 3px;
+    padding: 5px;
+    color: white;
 }
 
 .label-r {
+    background-color: #7fffd4;
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    font-size: 10px;
+    vertical-align: middle;
+    padding: 5px;
+    color: white;
+}
+
+.label-m {
+    background-color: rgb(214, 108, 69);
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    font-size: 10px;
+    vertical-align: middle;
+    padding: 5px;
+    color: white;
+}
+
+.label-w {
+    background-color: #f500a1;
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    font-size: 10px;
+    vertical-align: middle;
+    padding: 5px;
+    color: white;
+}
+
+.label-s {
     background-color: lightgreen;
     width: 100px;
     height: 100px;
     border-radius: 120px;
     font-size: 10px;
     vertical-align: middle;
-    padding: 3px;
-}
-
-.label-m {
-    background-color: orangered;
-    width: 100px;
-    height: 100px;
-    border-radius: 120px;
-    font-size: 10px;
-    vertical-align: middle;
-    padding: 3px;
-}
-
-.label-w {
-    background-color: pink;
-    width: 100px;
-    height: 100px;
-    border-radius: 120px;
-    font-size: 10px;
-    vertical-align: middle;
-    padding: 3px;
-}
-
-.label-s {
-    background-color: rgb(14, 133, 14);
-    width: 100px;
-    height: 100px;
-    border-radius: 120px;
-    font-size: 10px;
-    vertical-align: middle;
-    padding: 3px;
+    padding: 5px;
+    color: white;
 }
 
 .task-name {
