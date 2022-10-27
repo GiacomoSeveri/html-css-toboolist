@@ -10,7 +10,7 @@
 
 body {
     color: rgb(0, 0, 0);
-    background-color: rgb(220,220,220);
+    background-color: #F6F8F9;
     font-family: arial;
 }
 
@@ -47,6 +47,10 @@ p {
     margin-bottom: 10px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Header */
 
 #logo {
@@ -64,7 +68,7 @@ header {
 .all-button {
     text-align: left;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 15px;
     padding-left: 15px;
     margin-bottom: 2px;
     border-top-left-radius: 20px;
@@ -72,7 +76,7 @@ header {
 }
 
 .task-button {
-    background-color: rgb(73, 157, 196);
+    background-color: #1E90FF;
     color: white;
     margin: 20px auto;
     border: transparent;
@@ -114,7 +118,7 @@ header {
 }
 
 .label-e {
-    background-color: rgb(73, 157, 196);
+    background-color: #45ABEA;
     width: 100px;
     height: 100px;
     border-radius: 120px;
@@ -125,7 +129,7 @@ header {
 }
 
 .label-q {
-    background-color: #8f00ff;
+    background-color: #9C72E4;
     width: 100px;
     height: 100px;
     border-radius: 120px;
@@ -136,7 +140,7 @@ header {
 }
 
 .label-r {
-    background-color: #7fffd4;
+    background-color: #64C0A9;
     width: 100px;
     height: 100px;
     border-radius: 120px;
@@ -147,7 +151,7 @@ header {
 }
 
 .label-m {
-    background-color: rgb(214, 108, 69);
+    background-color: #F29E33;
     width: 100px;
     height: 100px;
     border-radius: 120px;
@@ -158,7 +162,7 @@ header {
 }
 
 .label-w {
-    background-color: #f500a1;
+    background-color: #D863A1;
     width: 100px;
     height: 100px;
     border-radius: 120px;
@@ -169,7 +173,7 @@ header {
 }
 
 .label-s {
-    background-color: lightgreen;
+    background-color: #B0C926;
     width: 100px;
     height: 100px;
     border-radius: 120px;
